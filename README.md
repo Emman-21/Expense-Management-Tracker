@@ -3,8 +3,6 @@
 ## 🎯 Overview
 A **secure desktop application** built with Python Tkinter for tracking monthly expenses with **SDG-aligned financial insights**. This tool helps users monitor utility bills, categorized spending, and visualize trends to promote responsible consumption.
 
-![Application Preview](https://via.placeholder.com/800x450/0F1E3A/EFEFEF?text=Expenses+Tracker+Screenshot)
-
 ## ✨ Key Features
 
 ### 🔐 **Security & Authentication**
