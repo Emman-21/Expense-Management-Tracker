@@ -1,9 +1,15 @@
-# 💰 Expenses Management Tracker
+<h1 align="center">💰 Expense Management Tracker 💸</h1>
 
-## 🎯 Overview
+<p align="center">
+  <code>🐍 Python (Tkinter)</code> &nbsp;|&nbsp; 
+  <code>📊 SQLite Database</code> &nbsp;&nbsp; 
+</p>
+
+
+## `🎯 Overview`
 A **secure desktop application** built with Python Tkinter for tracking monthly expenses with **SDG-aligned financial insights**. This tool helps users monitor utility bills, categorized spending, and visualize trends to promote responsible consumption.
 
-## ✨ Key Features
+## `✨ Key Features`
 
 ### 🔐 **Security & Authentication**
 - **Login system** with password hashing (SHA-256)
@@ -34,7 +40,7 @@ A **secure desktop application** built with Python Tkinter for tracking monthly 
 - **Goal 12** (Responsible Consumption) - Spending awareness
 - **Goal 13** (Climate Action) - Energy reduction advice
 
-## 🚀 Installation
+## `🚀 Installation`
 
 ### Prerequisites
 ```bash
@@ -54,7 +60,7 @@ pip install tkinter matplotlib
 python expenses_tracker.py
 ```
 
-## 🛠️ Tech Stack
+## `🛠️ Tech Stack`
 
 | Component | Technology |
 |-----------|------------|
@@ -64,7 +70,7 @@ python expenses_tracker.py
 | **Security** | Hashlib (SHA-256) |
 | **Date Handling** | datetime |
 
-## 📁 Database Schema
+## `📁 Database Schema`
 
 ### **users** (Authentication)
 - `id` - Primary Key
@@ -86,7 +92,7 @@ python expenses_tracker.py
 - `description` - Transaction details
 - `amount` - Individual transaction value
 
-## 🎨 User Interface
+## `🎨 User Interface`
 
 ### **Login Screen** 🔒
 - Clean authentication interface
@@ -113,7 +119,7 @@ python expenses_tracker.py
 - **Color-coded** data series
 - **Interactive** display updates
 
-## 🎮 How to Use
+## `🎮 How to Use`
 
 ### 1. **Login**
 ```
@@ -141,7 +147,7 @@ Password: password123
 - Use "✏️ UPDATE RECORD" to modify
 - "🗑️ DELETE SELECTED" to remove
 
-## 🎯 SDG Features Integration
+## `🎯 SDG Features Integration`
 
 | SDG Goal | Implementation |
 |----------|----------------|
@@ -152,7 +158,7 @@ Password: password123
 
 The application provides **personalized tips** when spending increases in specific categories, promoting sustainable financial habits aligned with UN Sustainable Development Goals.
 
-## 🎨 Color Scheme
+## `🎨 Color Scheme`
 
 | Color | Hex | Usage |
 |-------|-----|-------|
@@ -164,21 +170,21 @@ The application provides **personalized tips** when spending increases in specif
 | Delete | `#9E2A2B` | Delete operations |
 | Manage | `#167A6E` | Transaction management |
 
-## 🔒 Security Features
+## `🔒 Security Features`
 
 - **Password hashing** using SHA-256
 - **SQL injection prevention** through parameterized queries
 - **Session management** with proper logout
 - **Input validation** on all fields
 
-## 📊 Data Validation
+## 📊 `Data Validation`
 
 - **Month format**: `YYYY-MM` validation
 - **Currency input**: Peso symbol handling
 - **Positive values**: No negative amounts
 - **Duplicate prevention**: Unique month constraint
 
-## 🚨 Warning System
+## `🚨 Warning System`
 
 The application provides **proactive warnings**:
 - **Zero input detection** - Alerts for missing data
@@ -186,7 +192,7 @@ The application provides **proactive warnings**:
 - **SDG tips** - Sustainable spending advice
 - **Save confirmation** - Prevents accidental deletions
 
-## 🔧 Customization Options
+## `🔧 Customization Options`
 
 ### Modify Categories
 Edit the `CATEGORIES` list in the code to add/remove spending categories:
@@ -215,7 +221,7 @@ SDG_TIPS = {
 }
 ```
 
-## 📦 File Structure
+## `📦 File Structure`
 
 ```
 expenses_tracker.py     # Main application file
@@ -223,7 +229,7 @@ expenses_tracker.db     # SQLite database (auto-generated)
 README.md              # This documentation
 ```
 
-## 🐛 Troubleshooting
+## `🐛 Troubleshooting`
 
 ### Common Issues
 
@@ -244,7 +250,7 @@ README.md              # This documentation
 - **"Already exists"**: Each month can only have one record
 - **"No record selected"**: Click on a table row before editing/deleting
 
-## 🔮 Future Enhancements
+## `🔮 Future Enhancements`
 
 Planned features for upcoming versions:
 - 💱 Multiple currency support
@@ -254,7 +260,7 @@ Planned features for upcoming versions:
 - 👥 Multi-user household support
 - 📄 Export to PDF/Excel reports
 
-## 👥 Target Users
+## `👥 Target Users`
 
 - 🏠 **Households** tracking monthly expenses
 - 🌱 **Eco-conscious individuals** monitoring resource usage
@@ -262,7 +268,7 @@ Planned features for upcoming versions:
 - 🎓 **Students** learning financial literacy
 - 📊 **Researchers** analyzing consumption patterns
 
-## 📝 License & Attribution
+## `📝 License & Attribution`
 
 This project is developed for **educational purposes** with a focus on:
 - **Financial literacy** promotion
@@ -274,7 +280,7 @@ This project is developed for **educational purposes** with a focus on:
 - **Python community** for excellent libraries
 - **Tkinter** for robust GUI framework
 
-## 🆘 Support
+## `🆘 Support`
 
 For issues or questions:
 1. Check the troubleshooting section above
@@ -283,7 +289,7 @@ For issues or questions:
 
 ---
 
-## 🚀 Quick Start Command
+## `🚀 Quick Start Command`
 
 ```bash
 # On first run, the database will be created automatically
